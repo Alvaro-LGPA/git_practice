@@ -58,32 +58,77 @@ a {
 
 /* Global styles ====================================*/
 
-#background {
+#hero-header-image {
     position: absolute;
     z-index: -1;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
-    background-image: url(/img/elefante\ 20.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: black;
+    overflow: hidden;
+}
+
+#hero-header-image img{
+    max-width: 100vw;
+    opacity: 70%;
 }
 body {
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
 }
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 20px 0;
+    padding: 20px;
 }
 nav ul li{
     display: inline-block;
-    padding: 0 30px;
+   padding-left: 20px;
 }
 
-header {
-    
-   
+#logo{
+    color: rgb(238, 238, 238);
 }
 
+.nav-item {
+    color:  rgb(238, 238, 238);
+}
+
+#hero-header-content {
+    color:  rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+#hero-header-content h1 {
+    padding-bottom: 24px;
+}
+
+#hero-header-content h2 {
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+#tags li{
+    color:  rgb(238, 238, 238);
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.tag p{
+    background-color:  rgb(238, 238, 238);
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color:  rgb(238, 238, 238);
+}
