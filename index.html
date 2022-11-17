@@ -9,57 +9,102 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/iof8yvo.css">
+    <script src="/script.js"></script>
 
 </head>
 
 <body>
-    <nav id="nav-dark">
-        <h3>Alvaro Laura</h3>
-        <ul>
-            <li><a href="#">
-                    <p>Works</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <p>About</p>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <header>
-        <div id="hero-header-content">
-            <h1>Alvaro Laura</h1>
-            <h3>Design</h3>
-        </div>
-    </header>
-    <section>
-        <ul id="tags">
-            <li class="tag">
-                <a href="#"><p class="body-emphasis">Illustration</p></a>
-            </li>
-            <li class="tag">
-                <a href="#"><p class="body-emphasis">UX</p></a>
-            </li>
-            <li class="tag">
-                <a href="#"><p class="body-emphasis">UI</p></a>
-            </li>
-            <li class="tag">
-                <a href="#"><p class="body-emphasis">Design</p></a>
-            </li>
-            <li class="tag">
-                <a href="#"><p class="body-emphasis">Design Systems</p></a>
-            </li>
-            <li class="tag">
-                <a href="#"><p class="body-emphasis">Brand</p></a>
-            </li>
-        </ul>
-    </section>
-    <footer>
-        <div>
-            <p>&copy; Alvaro Laura. Exceptions indicated</p>
-        </div>
-    </footer>
+    <ul>
+        <nav id="nav-dark">
+            <a href="/index.html">
+                <h3>Alvaro Laura</h3>
+            </a>
+            <ul>
+                <li>
+                    <!--dropdown=========================== -->
+                    <div class="dropdown">
+                        <button class="small-copy-emphasis dropbtn" onclick="myFunction()">Works</button>
+                        <div class="dropdown-content small-copy-emphasis" id="myDropdown">
+                            <a href="#">Retiro Muppet Theater</a>
+                            <a href="#">HERE Pictograms</a>
+                            <a href="#">Wedagene 2012</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/about.html">
+                        <p class="small-copy-emphasis">About</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <!-- <h1>Alvaro Laura</h1> -->
+            <!-- <h3>Design</h3> -->
+        </header>
+        <section>
+            <ul id="tags">
+                <li class="tag">
+                    <a href="#">
+                        <p class="body-emphasis">Illustration</p>
+                    </a>
+                </li>
+                <li class="tag">
+                    <a href="#">
+                        <p class="body-emphasis">UX</p>
+                    </a>
+                </li>
+                <li class="tag">
+                    <a href="#">
+                        <p class="body-emphasis">UI</p>
+                    </a>
+                </li>
+                <li class="tag">
+                    <a href="#">
+                        <p class="body-emphasis">Design</p>
+                    </a>
+                </li>
+                <li class="tag">
+                    <a href="#">
+                        <p class="body-emphasis">Design Systems</p>
+                    </a>
+                </li>
+                <li class="tag">
+                    <a href="#">
+                        <p class="body-emphasis">Brand</p>
+                    </a>
+                </li>
+                <li id="reset-filters" class="body-emphasis">Reset filters</li>
+            </ul>
+            <div id="tiles-picker">
+                <div class="container">
+                    <div class="overlay">
+                        <div>
+                            <h3>Retiro Muppet Theater</h3>
+                            <p>Madrid 2005-2012</p>
+                        </div>
+                        <div class="small-tags">
+                            <p class="small-copy-emphasis tag-s">Design</p>
+                            <p class="small-copy-emphasis tag-s">Illustration</p>
+                            <p class="small-copy-emphasis tag-s">Brand</p>
+                        </div>
+                    </div>
+                    <img src="/img/titeres/tigre.png" alt="Tiger illustration">
+
+                </div>
+                <img src="/img/titeres/pulpo.png" alt="Octopus illustration"><img
+                    src="/img/titeres/here-identifiers.png" alt="Icon"><img src="/img/titeres/webdagene.png"
+                    alt="monitor"><img src="/img/titeres/elefante.png" alt="Elephant illustration"><img
+                    src="/img/titeres/flamenco.png" alt="flamingo Fillustration"><img
+                    src="/img/titeres/monocle-brazil.png" alt="magazin pages"><img
+                    src="/img/titeres/fitA-icons_icon.svg" alt="icon">
+            </div>
+        </section>
+        <footer>
+            <div>
+                <p class="small-copy-emphasis">&copy; Alvaro Laura. Exceptions indicated</p>
+            </div>
+        </footer>
 
 </body>
 
