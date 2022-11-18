@@ -9,26 +9,42 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://use.typekit.net/iof8yvo.css">
     <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
 </head>
 
 <body>
     <nav id="nav-dark">
-        <a href="/index.html"><h3>Alvaro Laura</h3></a>
-        <ul>
-            <li><a href="#">
-                    <a href="#"><p class="small-copy-emphasis">Works</p></a>
+        <div id="container-to-center">
+            <div id="alvaro-logo">
+                <a href="/index.html">
+                    <h3>Alvaro Laura</h3>
                 </a>
-            </li>
-            <li>
-                    <a href="/about.html"><p class="small-copy-emphasis">About</p></a>
-            </li>
-        </ul>
+            </div>
+            <ul>
+                <li>
+                    <!--dropdown=========================== -->
+                    <div class="dropdown">
+                        <button class="small-copy-emphasis dropbtn" onclick="myFunction()">Works</button>
+                        <div class="dropdown-content small-copy-emphasis" id="myDropdown">
+                            <a href="#">Retiro Muppet Theater</a>
+                            <a href="#">HERE Pictograms</a>
+                            <a href="#">Wedagene 2012</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/about.html">
+                        <p class="small-copy-emphasis">About</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <header>
         <div id="hello" class="display">hello!</div>
     </header>
     <main id="about-page">
-        
+
         <img id="profile-picture" src="/img/profile-picture.png" alt="Alvaro Laura Picture">
         <ul id="contact-links">
             <li><a href="#">Mail</a></li>
@@ -36,37 +52,55 @@
             <li><a href="#">Behande</a></li>
             <li><a href="#">Dribble</a></li>
         </ul>
-    
-    
-    <section id="bio">
-        <p>
-            My name is Alvaro Laura and I’m a Berlin-based designer with more than 17 years
-            of international experience. After 10 years as a freelance illustrator/designer, I
-            settled at HERE Technologies in an effort to engage with a tribe that would help
-            me reach new heights in digital communication and product design.
-            Through 7 amazing years I contributed to the company’s Brand makeover and the
-            transformation of its business model. I designed experiences for several products
-            and created all sorts of communication artifacts, such as illustrations, motion
-            graphics, complete iconography systems, photo and video assets, 3d imagery,
-            guidelines and much more.
-            When I moved to pastures new, my role of Lead UX Designer was focused into
-            supporting the consolidation of the multiple design initiatives running at that time
-            into one single HERE Design System.
-            On my last role as Brand Design Lead at Fit Analytics, a Snap Inc. company, my
-            mission was to evangelize design centric processes accross the organization.
-            I am a creative with insatiable curiosity and attention to the detail, enjoying both
-            to be coach and player. I look for opportunities where I can contribute with my
-            skills while continuing my never-ending learning journey.
-            In the little time that I may have after my girls are in bed, I usually find myself
-            playing the guitar, writing, drawing, filling up pages with proyects for children
-            books, comics and musics that may never see the light of the day, but that keep
-            me connected to the primary impulse that propelled me to this amazing journey.
-        </p>
-        <h3>Skills</h3>
-        <img src="/img/javaScript.svg" alt="javaScript logo">
-        <img src="/img/css.svg" alt="css logo"><img src="/img/html.svg" alt="html logo"><img src="/img/figma.svg" alt="figma logo"><img src="/img/sketch.svg" alt="sketch logo"><img src="/img/illustrator.svg" alt="adobe illustrator logo"><img src="/img/photoshop.svg" alt="photoshop log"><img src="/img/afterEffects.svg" alt="after effects logo"><img src="/img/premiere.svg" alt="premiere logo"><img src="/img/blender.svg" alt="blender logo"><img src="/img/conlfuence.svg" alt="confluence logo"><img src="/img/jira.svg" alt="jira logo"><img src="/img/gitHub.svg" alt="gitHub logo">
-    </section>
-</main>
+
+
+        <section id="bio">
+            <p>
+                My name is Alvaro Laura and I’m a Berlin-based designer with more than 17 years
+                of international experience. After 10 years as a freelance illustrator/designer, I
+                settled at HERE Technologies in an effort to engage with a tribe that would help
+                me reach new heights in digital communication and product design.
+                Through 7 amazing years I contributed to the company’s Brand makeover and the
+                transformation of its business model. I designed experiences for several products
+                and created all sorts of communication artifacts, such as illustrations, motion
+                graphics, complete iconography systems, photo and video assets, 3d imagery,
+                guidelines and much more.
+                When I moved to pastures new, my role of Lead UX Designer was focused into
+                supporting the consolidation of the multiple design initiatives running at that time
+                into one single HERE Design System.
+                On my last role as Brand Design Lead at Fit Analytics, a Snap Inc. company, my
+                mission was to evangelize design centric processes accross the organization.
+                I am a creative with insatiable curiosity and attention to the detail, enjoying both
+                to be coach and player. I look for opportunities where I can contribute with my
+                skills while continuing my never-ending learning journey.
+                In the little time that I may have after my girls are in bed, I usually find myself
+                playing the guitar, writing, drawing, filling up pages with proyects for children
+                books, comics and musics that may never see the light of the day, but that keep
+                me connected to the primary impulse that propelled me to this amazing journey.
+            </p>
+            <h3>Skills</h3>
+            <div id="skills-icons">
+                <div class="skill-row">
+                    <img src="/img/javaScript.svg" alt="javaScript logo">
+                    <img src="/img/css.svg" alt="css logo"><img src="/img/html.svg" alt="html logo"><img
+                        src="/img/figma.svg" alt="figma logo"><img src="/img/sketch.svg">
+                </div>
+                <div class="skill-row">
+                    <img src="/img/illustrator.svg" alt="adobe illustrator logo">
+                    <img src="/img/photoshop.svg" alt="photoshop log">
+                    <img src="/img/afterEffects.svg" alt="after effects logo">
+                    <img src="/img/premiere.svg" alt="premiere logo">
+                    <img src="/img/blender.svg" alt="blender">
+                </div>
+                <div class="skill-row">
+                    <img src="/img/conlfuence.svg" alt="confluence logo"><img src="/img/jira.svg" alt="jira logo"><img
+                        src="/img/gitHub.svg" alt="gitHub logo">
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
